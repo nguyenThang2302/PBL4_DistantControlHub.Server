@@ -92,7 +92,7 @@ public class HRoomDAO {
 	public List<PortIPClientMirror> getAllPortIPClinetOnline(String codeRoom, List<String> listCodeUser) throws SQLException  {
 		String sqlLstCodeUser = "";
 		for(String codeUser : listCodeUser) {
-			sqlLstCodeUser += codeUser + ",";
+			sqlLstCodeUser += "'" + codeUser + "'" + ",";
 		}
 		if (sqlLstCodeUser.endsWith(",")) {
             sqlLstCodeUser = sqlLstCodeUser.substring(0, sqlLstCodeUser.length() - 1);
@@ -100,7 +100,7 @@ public class HRoomDAO {
 		String sql = "SELECT users.port, users.ip_address FROM users "
 				+ "INNER JOIN members_rooms ON users.id = members_rooms.member_id "
 				+ "INNER JOIN rooms ON members_rooms.room_id = rooms.id "
-				+ "WHERE rooms.code = ? AND users IN (" + sqlLstCodeUser + ")";
+				+ "WHERE rooms.code = ? AND users.code IN (" + sqlLstCodeUser + ")";
 		PreparedStatement p = con.prepareStatement(sql);
 		p.setString(1, codeRoom);
 		ResultSet r = p.executeQuery();
@@ -178,7 +178,7 @@ public class HRoomDAO {
 	public List<PortIPClientMirror> checkOnlineMember(List<String> codeMembersOnline) throws SQLException {
 		String sqlLstCodeMember = "";
 		for(String codeMember : codeMembersOnline) {
-			sqlLstCodeMember += codeMember + ",";
+			sqlLstCodeMember += "'" + codeMember + "'" + ",";
 		}
 		if (sqlLstCodeMember.endsWith(",")) {
 			sqlLstCodeMember = sqlLstCodeMember.substring(0, sqlLstCodeMember.length() - 1);

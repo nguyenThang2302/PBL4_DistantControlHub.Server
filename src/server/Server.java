@@ -8,6 +8,7 @@ import java.io.InputStreamReader;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.PrintWriter;
+import java.net.InetAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.sql.SQLException;
@@ -19,7 +20,11 @@ import java.util.Map;
 import java.util.Random;
 import org.cloudinary.json.JSONArray;
 import org.cloudinary.json.JSONObject;
+import org.mindrot.jbcrypt.BCrypt;
 
+import client.bean.ModelNotification;
+import client.bean.ModelRoom;
+import client.dao.ClientDAO;
 import common.bean.InforMembersRoom;
 import common.bean.InforMessengerRoom;
 import common.bean.InforUser;
@@ -46,8 +51,9 @@ public class Server {
 		List<String> listCodeUser = new ArrayList<String>();
 		List<String> listCodeHost = new ArrayList<String>();
 		try {
+			InetAddress localhost = InetAddress.getLocalHost();
 			serverSocket = new ServerSocket(configServer.getPort());
-			config.Logger.logger("Server is starting on port 6996");
+			config.Logger.logger("Server is starting on port 6996 - ip " + localhost.getHostAddress());
 
 			while (true) {
 				Socket clientSocket = serverSocket.accept();
@@ -61,6 +67,40 @@ public class Server {
 						listCodeUser.add(requestArr[1]);
 					} else if (requestArr[0].equals("host")) {
 						listCodeHost.add(requestArr[1]);
+					} else if (requestArr[0].equals("loginapp")) {
+						String ip = requestArr[3];
+						int port = Integer.parseInt(requestArr[4]);
+						
+						User loginUser = new User();
+						loginUser.setEmail(requestArr[1]);
+						loginUser.setPassword(requestArr[2]);
+						UserDAO userDAO = new UserDAO();
+						User isLogin = new User();
+						try {
+							isLogin = userDAO.CheckAccount(loginUser);
+							if (isLogin == null) {
+								writer.println("{\"status\":\"Failed Login\"}");
+								writer.flush();
+							} else {
+								listCodeUser.add(isLogin.getCode());
+								userDAO.updateIpAddress(ip, requestArr[1]);
+								userDAO.updatePortUser(port, requestArr[1]);
+								
+								config.Logger.logger("User " + isLogin.getCode() + " login successfully");
+								userDAO.updateIpAddress(clientSocket.getInetAddress().toString().replace("/", ""),
+										isLogin.getCode());
+								JSONObject jsonObject = new JSONObject();
+								jsonObject.put("status", "Successfully Login");
+								jsonObject.put("code", isLogin.getCode());
+								jsonObject.put("name", isLogin.getName());
+								jsonObject.put("email", isLogin.getEmail());
+								jsonObject.put("picture", isLogin.getPicture());
+								writer.println(jsonObject.toString());
+								writer.flush();
+							}
+						} catch (SQLException e) {
+							e.printStackTrace();
+						}
 					} else if (requestArr[0].equals("login")) {
 						User loginUser = new User();
 						loginUser.setEmail(requestArr[1]);
@@ -88,6 +128,30 @@ public class Server {
 						} catch (SQLException e) {
 							e.printStackTrace();
 						}
+					} else if (requestArr[0].equals("getallroomapp")) {
+						String codeUser = requestArr[1];
+						
+						ClientDAO clientDAO = new ClientDAO();
+						List<ModelRoom> list = new ArrayList<ModelRoom>();
+						try {
+							list = clientDAO.getAllRoomByClient(codeUser);
+						} catch (SQLException e) {
+							e.printStackTrace();
+						}
+						
+						JSONArray jsonArray = new JSONArray();
+						config.Logger.logger("User " + requestArr[1] + " get all room");
+						for (ModelRoom room : list) {
+							JSONObject roomJson = new JSONObject();
+							roomJson.put("code", room.getCode());
+							roomJson.put("name", room.getName());
+							roomJson.put("userHost", room.getUser_host());
+							roomJson.put("joined", room.getJoined());
+							jsonArray.put(roomJson);
+						}
+						writer.println(jsonArray.toString());
+						writer.flush();
+						
 					} else if (requestArr[0].equals("home")) {
 						UserDAO userDAO = new UserDAO();
 						RoomDAO roomDAO = new RoomDAO();
@@ -241,7 +305,8 @@ public class Server {
 							try {
 								listPortIP = hroomDAO.getAllPortIPClinetOnline(codeRoom, listCodeUser);
 								if (listPortIP.size() > 0) {
-									ultils.handelSendNotificationRoom(listPortIP, codeRoom);
+									String nameRoom = roomDAO.getNameRoomByCode(codeRoom);
+									ultils.handelSendNotificationRoom(listPortIP, nameRoom);
 								}
 							} catch (SQLException e) {
 								e.printStackTrace();
@@ -357,7 +422,8 @@ public class Server {
 								listPortIP = hroomDAO.checkOnlineMember(codeMembersOnline);
 								if (listPortIP.size() > 0) {
 									Ultils ultils = new Ultils();
-									ultils.handelSendAddMember(listPortIP, codeRoom);
+									String nameRoom = roomDAO.getNameRoomByCode(codeRoom);
+									ultils.handelSendAddMember(listPortIP, codeRoom, nameRoom);
 								}
 							} catch (SQLException e) {
 								e.printStackTrace();
@@ -450,16 +516,16 @@ public class Server {
 						writer.flush();
 					} else if (requestArr[0].equals("getprofile")) {
 						String email = requestArr[1];
-						
+
 						UserDAO userDAO = new UserDAO();
 						InforUser inforUser = null;
-						
+
 						try {
 							inforUser = userDAO.getInforUserByEmail(email);
 						} catch (SQLException e) {
 							e.printStackTrace();
 						}
-						
+
 						JSONObject jsonObject = new JSONObject();
 						jsonObject.put("name", inforUser.getName());
 						jsonObject.put("sex", inforUser.getSex());
@@ -476,14 +542,14 @@ public class Server {
 						String sex = requestArr[4];
 						String country = requestArr[5];
 						String birthday = requestArr[6];
-						
+
 						UserDAO userDAO = new UserDAO();
 						try {
 							userDAO.updateProfileUser(name, sex, email, phone, birthday, country);
 							JSONObject jsonObject = new JSONObject();
 							jsonObject.put("status", "Update profile user successfully");
 							config.Logger.logger("Update profile user " + email);
-							
+
 							writer.println(jsonObject.toString());
 							writer.flush();
 						} catch (SQLException e) {
@@ -491,10 +557,10 @@ public class Server {
 						} catch (ParseException e) {
 							e.printStackTrace();
 						}
-						
+
 					} else if (requestArr[0].equals("verifycode")) {
 						String email = requestArr[1];
-						
+
 						UserDAO userDAO = new UserDAO();
 						try {
 							if (userDAO.isUserExists(email)) {
@@ -527,7 +593,7 @@ public class Server {
 						String email = requestArr[1];
 						String password = requestArr[2];
 						String repeatPassword = requestArr[3];
-						
+
 						Random rd = new Random();
 						User user = new User();
 						String user_code = System.currentTimeMillis() + rd.nextInt(1000) + "";
@@ -535,14 +601,15 @@ public class Server {
 						user.setEmail(email);
 						user.setPassword(password);
 						user.setRepeat_password(repeatPassword);
-						
+
 						int check_pass = 0;
 						UserDAO userDAO = new UserDAO();
-						
+
 						if (user.getPassword().equals(user.getRepeat_password())) {
 							check_pass = 1;
 						}
-						user.setPicture("https://static.vecteezy.com/system/resources/previews/000/439/863/original/vector-users-icon.jpg");
+						user.setPicture(
+								"https://static.vecteezy.com/system/resources/previews/000/439/863/original/vector-users-icon.jpg");
 						int count = 0;
 						try {
 							count = userDAO.AddAccount(user);
@@ -564,13 +631,109 @@ public class Server {
 							writer.println(jsonObject.toString());
 							writer.flush();
 						}
+					} else if (requestArr[0].equals("logout")) {
+						String userCode = requestArr[1];
+						listCodeUser.remove(userCode);
+						
+						JSONObject jsonObject = new JSONObject();
+						jsonObject.put("status", "Logout Account Successfully");
+						config.Logger.logger("User " + userCode + " is logout account");
+						writer.println(jsonObject.toString());
+						writer.flush();
+					} else if (requestArr[0].equals("notifications")) {
+						String userCode = requestArr[1];
+						
+						UserDAO userDAO = new UserDAO();
+						ClientDAO clientDAO = new ClientDAO();
+						int idUser = 0;
+						try {
+							idUser = userDAO.getIdUserByCode(userCode);
+						} catch (SQLException e) {
+							e.printStackTrace();
+						}
+						
+						List<ModelNotification> listNotification = new ArrayList<ModelNotification>();
+						
+						try {
+							listNotification = clientDAO.getAllNotification(idUser);
+							JSONArray jsonArrayMem = new JSONArray();
+							for (ModelNotification infor : listNotification) {
+								JSONObject memJson = new JSONObject();
+								memJson.put("notification", infor.getNotification());
+								memJson.put("createdAt", infor.getCreatedAt());
+								memJson.put("nameRoom", infor.getNameRoom());
+								jsonArrayMem.put(memJson);
+							}
+							JSONObject jsonObject = new JSONObject();
+							jsonObject.put("data", jsonArrayMem);
+							config.Logger.logger("User " + userCode + " get all notifications");
+							writer.println(jsonObject.toString());
+							writer.flush();
+						} catch (SQLException e) {
+							e.printStackTrace();
+						}
+						
+					} else if (requestArr[0].equals("checkemail")) {
+						UserDAO userDAO = new UserDAO();
+						String email = requestArr[1];
+						
+						try {
+							Boolean isCheck = userDAO.checkDuplicateEmail(email);
+							
+							if (isCheck) {
+								JSONObject jsonObject = new JSONObject();
+								jsonObject.put("status", "Email is existing");
+								writer.println(jsonObject.toString());
+								writer.flush();
+							} else {
+								JSONObject jsonObject = new JSONObject();
+								jsonObject.put("status", "Email is not existing");
+								writer.println(jsonObject.toString());
+								writer.flush();
+							}
+						} catch (SQLException e) {
+							e.printStackTrace();
+						}
+					} else if (requestArr[0].equals("insertuser")) {
+						String code = requestArr[1];
+						String name = requestArr[2];
+						String email = requestArr[3];
+						String password = requestArr[4];
+						
+						User user = new User();
+						user.setCode(code);
+						user.setName(name);
+						user.setEmail(email);
+						user.setPassword(password);
+						
+						UserDAO userDAO = new UserDAO();
+						try {
+							userDAO.insertUser(user);
+						} catch (SQLException e) {
+							e.printStackTrace();
+						}
+					} else if (requestArr[0].equals("changerpass")) {
+						String email = requestArr[1];
+						String newPass = requestArr[2];
+						UserDAO userDAO = new UserDAO();
+						
+						try {
+							Boolean existingUser = userDAO.checkDuplicateEmail(email);
+							
+							if (existingUser) {
+								String hashedPassword = BCrypt.hashpw(newPass, BCrypt.gensalt(12));
+								userDAO.updateUser_passWord(email, hashedPassword);
+							}
+						} catch (SQLException e) {
+							e.printStackTrace();
+						}
 					}
 					clientSocket.close();
 				} catch (IOException e) {
 					e.printStackTrace();
 				}
 				clientSocket.close();
-			}
+			} 
 		} catch (IOException e) {
 			e.printStackTrace();
 		} finally {

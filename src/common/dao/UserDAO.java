@@ -155,12 +155,12 @@ public class UserDAO {
 		return user;
 	}
 	
-	public void updateIpAddress(String ip_address, String code) throws SQLException {
+	public void updateIpAddress(String ip_address, String email) throws SQLException {
 		PreparedStatement p = con.prepareStatement(
-				"UPDATE users SET ip_address = ? WHERE code = ?",
+				"UPDATE users SET ip_address = ? WHERE email = ?",
 				PreparedStatement.RETURN_GENERATED_KEYS);
 		p.setString(1, ip_address);
-		p.setString(2, code);
+		p.setString(2, email);
 		p.execute();
 		p.close();
 	}
@@ -175,12 +175,12 @@ public class UserDAO {
 		p.close();
 	}
 	
-	public void updatePortUser(int port, String code) throws SQLException {
+	public void updatePortUser(int port, String email) throws SQLException {
 		PreparedStatement p = con.prepareStatement(
-				"UPDATE users SET port = ? WHERE code = ?",
+				"UPDATE users SET port = ? WHERE email = ?",
 				PreparedStatement.RETURN_GENERATED_KEYS);
 		p.setInt(1, port);
-		p.setString(2, code);
+		p.setString(2, email);
 		p.execute();
 		p.close();
 	}

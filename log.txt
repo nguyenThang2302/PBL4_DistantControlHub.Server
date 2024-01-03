@@ -137,3 +137,458 @@
 [2024-01-03 09:29:55]  [INFO]  User 1694318601553 get all room
 [2024-01-03 09:30:01]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=11229,localport=6996]
 [2024-01-03 09:30:01]  [INFO]  User 1694771461670 get detail room 1694771461670
+[2024-01-03 17:55:04]  [INFO]  Server is starting on port 6996
+[2024-01-03 17:56:18]  [INFO]  Server connected database postgreSQL succesfully
+[2024-01-03 17:56:35]  [INFO]  Server connected database postgreSQL succesfully
+[2024-01-03 17:56:35]  [INFO]  Server is starting on port 6996
+[2024-01-03 17:57:48]  [INFO]  Server connected database postgreSQL succesfully
+[2024-01-03 17:57:48]  [INFO]  Server is starting on port 6996 - ip 192.168.1.10
+[2024-01-03 20:02:14]  [INFO]  Server connected database postgreSQL succesfully
+[2024-01-03 20:02:14]  [INFO]  Server is starting on port 6996 - ip 192.168.1.10
+[2024-01-03 20:02:42]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=60627,localport=6996]
+[2024-01-03 20:02:49]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=60628,localport=6996]
+[2024-01-03 20:02:50]  [INFO]  User 1694528574704 login successfully
+[2024-01-03 20:03:21]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=60632,localport=6996]
+[2024-01-03 20:03:23]  [INFO]  User 1694528574704 login successfully
+[2024-01-03 20:04:29]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=60634,localport=6996]
+[2024-01-03 20:04:30]  [INFO]  User 1694528574704 login successfully
+[2024-01-03 20:20:17]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=60708,localport=6996]
+[2024-01-03 20:20:18]  [INFO]  User 1694528574704 login successfully
+[2024-01-03 20:20:19]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=60709,localport=6996]
+[2024-01-03 20:21:48]  [INFO]  Server connected database postgreSQL succesfully
+[2024-01-03 20:21:48]  [INFO]  Server is starting on port 6996 - ip 192.168.1.10
+[2024-01-03 20:22:01]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=60731,localport=6996]
+[2024-01-03 20:22:02]  [INFO]  User 1694528574704 login successfully
+[2024-01-03 20:22:02]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=60732,localport=6996]
+[2024-01-03 20:22:02]  [INFO]  User 1694528574704 get all room
+[2024-01-03 20:30:23]  [INFO]  Server connected database postgreSQL succesfully
+[2024-01-03 20:30:23]  [INFO]  Server is starting on port 6996 - ip 192.168.1.10
+[2024-01-03 20:30:36]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=60816,localport=6996]
+[2024-01-03 20:30:37]  [INFO]  User 1694528574704 login successfully
+[2024-01-03 20:30:37]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=60817,localport=6996]
+[2024-01-03 20:30:37]  [INFO]  User 1694528574704 get all room
+[2024-01-03 20:30:40]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=60818,localport=6996]
+[2024-01-03 20:30:40]  [INFO]  User 1694771461670 get detail room 1694771461670
+[2024-01-03 20:32:52]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=60832,localport=6996]
+[2024-01-03 20:32:53]  [INFO]  User 1694528574704 login successfully
+[2024-01-03 20:32:53]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=60834,localport=6996]
+[2024-01-03 20:32:53]  [INFO]  User 1694528574704 get all room
+[2024-01-03 20:32:55]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=60837,localport=6996]
+[2024-01-03 20:32:55]  [INFO]  User 1694771461670 get detail room 1694771461670
+[2024-01-03 20:36:28]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=60860,localport=6996]
+[2024-01-03 20:36:29]  [INFO]  User 1694528574704 login successfully
+[2024-01-03 20:36:29]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=60861,localport=6996]
+[2024-01-03 20:36:29]  [INFO]  User 1694528574704 get all room
+[2024-01-03 20:36:34]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=60862,localport=6996]
+[2024-01-03 20:36:34]  [INFO]  User 1694771461670 get detail room 1694771461670
+[2024-01-03 20:36:37]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=60863,localport=6996]
+[2024-01-03 20:36:37]  [INFO]  User null get detail room null
+[2024-01-03 20:40:26]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=60933,localport=6996]
+[2024-01-03 20:40:27]  [INFO]  User 1694528574704 login successfully
+[2024-01-03 20:40:27]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=60934,localport=6996]
+[2024-01-03 20:40:27]  [INFO]  User 1694528574704 get all room
+[2024-01-03 20:40:30]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=60935,localport=6996]
+[2024-01-03 20:40:30]  [INFO]  User 1694771461670 get detail room 1694771461670
+[2024-01-03 20:40:31]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=60936,localport=6996]
+[2024-01-03 20:40:31]  [INFO]  User null get detail room null
+[2024-01-03 20:41:44]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=60980,localport=6996]
+[2024-01-03 20:41:45]  [INFO]  User 1694528574704 login successfully
+[2024-01-03 20:41:45]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=60981,localport=6996]
+[2024-01-03 20:41:45]  [INFO]  User 1694528574704 get all room
+[2024-01-03 20:41:47]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=60982,localport=6996]
+[2024-01-03 20:41:47]  [INFO]  User 1694771461670 get detail room 1694771461670
+[2024-01-03 20:41:48]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=60983,localport=6996]
+[2024-01-03 20:41:48]  [INFO]  User 1694771461670 get detail room 1694771461670
+[2024-01-03 20:42:43]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61000,localport=6996]
+[2024-01-03 20:42:43]  [INFO]  User 1694771461670 get detail room 1694771461670
+[2024-01-03 20:42:47]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61001,localport=6996]
+[2024-01-03 20:42:47]  [INFO]  User 1694771461670 get detail room 1694771461670
+[2024-01-03 20:42:48]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61002,localport=6996]
+[2024-01-03 20:42:48]  [INFO]  User 1694771461670 get detail room 1694771461670
+[2024-01-03 20:42:50]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61005,localport=6996]
+[2024-01-03 20:42:50]  [INFO]  User 1694771461670 get detail room 1694771461670
+[2024-01-03 20:42:51]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61007,localport=6996]
+[2024-01-03 20:42:51]  [INFO]  User 1694771461670 get detail room 1694771461670
+[2024-01-03 20:43:06]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61008,localport=6996]
+[2024-01-03 20:43:06]  [INFO]  User 1694771461670 get detail room 1694771461670
+[2024-01-03 20:43:08]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61009,localport=6996]
+[2024-01-03 20:43:08]  [INFO]  User 1694771461670 get detail room 1694771461670
+[2024-01-03 20:43:08]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61010,localport=6996]
+[2024-01-03 20:43:08]  [INFO]  User 1694771461670 get detail room 1694771461670
+[2024-01-03 20:48:07]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61017,localport=6996]
+[2024-01-03 20:48:08]  [INFO]  User 1694528574704 login successfully
+[2024-01-03 20:48:08]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61018,localport=6996]
+[2024-01-03 20:48:08]  [INFO]  User 1694528574704 get all room
+[2024-01-03 20:48:24]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=7897,localport=6996]
+[2024-01-03 20:48:25]  [INFO]  User 1694318601553 login successfully
+[2024-01-03 20:48:25]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=7900,localport=6996]
+[2024-01-03 20:48:25]  [INFO]  User 1694318601553 get all room
+[2024-01-03 20:48:33]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=7904,localport=6996]
+[2024-01-03 20:48:33]  [INFO]  User 1694771461670 get detail room 1694771461670
+[2024-01-03 20:48:49]  [INFO]  Server connected database postgreSQL succesfully
+[2024-01-03 20:48:49]  [INFO]  Server is starting on port 6996 - ip 192.168.1.10
+[2024-01-03 20:48:58]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=7912,localport=6996]
+[2024-01-03 20:48:58]  [INFO]  User 1694318601553 login successfully
+[2024-01-03 20:48:58]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=7915,localport=6996]
+[2024-01-03 20:48:58]  [INFO]  User 1694318601553 get all room
+[2024-01-03 20:49:01]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=7919,localport=6996]
+[2024-01-03 20:49:01]  [INFO]  User 1694771461670 get detail room 1694771461670
+[2024-01-03 20:50:08]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=7930,localport=6996]
+[2024-01-03 20:50:08]  [INFO]  User 1694771461670 get detail room 1694771461670
+[2024-01-03 20:51:54]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=7989,localport=6996]
+[2024-01-03 20:51:54]  [INFO]  User 1694771461670 get detail room 1694771461670
+[2024-01-03 20:52:20]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61070,localport=6996]
+[2024-01-03 20:52:21]  [INFO]  User 1694528574704 login successfully
+[2024-01-03 20:52:21]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61071,localport=6996]
+[2024-01-03 20:52:21]  [INFO]  User 1694528574704 get all room
+[2024-01-03 20:52:24]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8001,localport=6996]
+[2024-01-03 20:52:24]  [INFO]  User 1694771461670 get detail room 1694771461670
+[2024-01-03 20:58:54]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61082,localport=6996]
+[2024-01-03 20:58:55]  [INFO]  User 1694528574704 login successfully
+[2024-01-03 20:58:55]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61083,localport=6996]
+[2024-01-03 20:58:55]  [INFO]  User 1694528574704 get all room
+[2024-01-03 20:58:57]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61084,localport=6996]
+[2024-01-03 20:58:57]  [INFO]  Get profile of user quocanle999@gmail.com
+[2024-01-03 20:59:33]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61085,localport=6996]
+[2024-01-03 20:59:33]  [INFO]  User 1694528574704 login successfully
+[2024-01-03 20:59:33]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61086,localport=6996]
+[2024-01-03 20:59:33]  [INFO]  User 1694528574704 get all room
+[2024-01-03 20:59:35]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61087,localport=6996]
+[2024-01-03 20:59:35]  [INFO]  Get profile of user quocanle999@gmail.com
+[2024-01-03 21:00:34]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61111,localport=6996]
+[2024-01-03 21:00:35]  [INFO]  User 1694528574704 login successfully
+[2024-01-03 21:00:36]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61112,localport=6996]
+[2024-01-03 21:00:36]  [INFO]  User 1694528574704 get all room
+[2024-01-03 21:00:37]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61113,localport=6996]
+[2024-01-03 21:00:37]  [INFO]  Get profile of user quocanle999@gmail.com
+[2024-01-03 21:07:47]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61121,localport=6996]
+[2024-01-03 21:07:48]  [INFO]  User 1694528574704 login successfully
+[2024-01-03 21:07:48]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61122,localport=6996]
+[2024-01-03 21:07:48]  [INFO]  User 1694528574704 get all room
+[2024-01-03 21:07:54]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61123,localport=6996]
+[2024-01-03 21:07:54]  [INFO]  User 1694771461670 get detail room 1694771461670
+[2024-01-03 21:08:11]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61126,localport=6996]
+[2024-01-03 21:08:11]  [INFO]  User 1694528574704 login successfully
+[2024-01-03 21:08:12]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61127,localport=6996]
+[2024-01-03 21:08:12]  [INFO]  User 1694528574704 get all room
+[2024-01-03 21:08:13]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61128,localport=6996]
+[2024-01-03 21:08:13]  [INFO]  Get profile of user quocanle999@gmail.com
+[2024-01-03 21:08:22]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61129,localport=6996]
+[2024-01-03 21:08:22]  [INFO]  Update profile user quocanle999@gmail.com
+[2024-01-03 21:08:24]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61130,localport=6996]
+[2024-01-03 21:08:24]  [INFO]  Get profile of user quocanle999@gmail.com
+[2024-01-03 21:08:31]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61131,localport=6996]
+[2024-01-03 21:08:31]  [INFO]  Update profile user quocanle999@gmail.com
+[2024-01-03 21:08:36]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61132,localport=6996]
+[2024-01-03 21:08:36]  [INFO]  Get profile of user quocanle999@gmail.com
+[2024-01-03 21:08:48]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61133,localport=6996]
+[2024-01-03 21:08:48]  [INFO]  Update profile user quocanle999@gmail.com
+[2024-01-03 21:08:51]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61134,localport=6996]
+[2024-01-03 21:08:51]  [INFO]  Get profile of user quocanle999@gmail.com
+[2024-01-03 21:09:15]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61135,localport=6996]
+[2024-01-03 21:09:16]  [INFO]  User 1694528574704 login successfully
+[2024-01-03 21:09:16]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61136,localport=6996]
+[2024-01-03 21:09:16]  [INFO]  User 1694528574704 get all room
+[2024-01-03 21:16:22]  [INFO]  Server connected database postgreSQL succesfully
+[2024-01-03 21:16:22]  [INFO]  Server is starting on port 6996 - ip 192.168.1.10
+[2024-01-03 21:16:37]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61140,localport=6996]
+[2024-01-03 21:16:38]  [INFO]  User 1694528574704 login successfully
+[2024-01-03 21:16:38]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61141,localport=6996]
+[2024-01-03 21:16:38]  [INFO]  User 1694528574704 get all room
+[2024-01-03 21:16:51]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8069,localport=6996]
+[2024-01-03 21:16:51]  [INFO]  User 1694318601553 login successfully
+[2024-01-03 21:16:51]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8072,localport=6996]
+[2024-01-03 21:16:51]  [INFO]  User 1694318601553 get all room
+[2024-01-03 21:16:56]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8073,localport=6996]
+[2024-01-03 21:16:56]  [INFO]  User 1694771461670 get detail room 1694771461670
+[2024-01-03 21:17:05]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61142,localport=6996]
+[2024-01-03 21:17:05]  [INFO]  User 1694528574704 is logout account
+[2024-01-03 21:17:08]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8082,localport=6996]
+[2024-01-03 21:17:09]  [INFO]  User 1694771461670 get detail room 1694771461670
+[2024-01-03 21:17:27]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61143,localport=6996]
+[2024-01-03 21:17:28]  [INFO]  User 1694528574704 login successfully
+[2024-01-03 21:17:28]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61144,localport=6996]
+[2024-01-03 21:17:28]  [INFO]  User 1694528574704 get all room
+[2024-01-03 21:31:58]  [INFO]  Server connected database postgreSQL succesfully
+[2024-01-03 21:31:58]  [INFO]  Server is starting on port 6996 - ip 192.168.1.10
+[2024-01-03 21:31:59]  [INFO]  Server connected database postgreSQL succesfully
+[2024-01-03 21:32:26]  [INFO]  Server connected database postgreSQL succesfully
+[2024-01-03 21:32:26]  [INFO]  Server is starting on port 6996 - ip 192.168.1.10
+[2024-01-03 21:32:37]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61175,localport=6996]
+[2024-01-03 21:32:38]  [INFO]  User 1694528574704 login successfully
+[2024-01-03 21:32:38]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61176,localport=6996]
+[2024-01-03 21:32:38]  [INFO]  User 1694528574704 get all room
+[2024-01-03 21:32:39]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61177,localport=6996]
+[2024-01-03 21:32:39]  [INFO]  User 1694528574704 get all notifications
+[2024-01-03 21:34:00]  [INFO]  Server connected database postgreSQL succesfully
+[2024-01-03 21:34:00]  [INFO]  Server is starting on port 6996 - ip 192.168.1.10
+[2024-01-03 21:34:11]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61186,localport=6996]
+[2024-01-03 21:34:12]  [INFO]  User 1694528574704 login successfully
+[2024-01-03 21:34:12]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61187,localport=6996]
+[2024-01-03 21:34:12]  [INFO]  User 1694528574704 get all room
+[2024-01-03 21:34:22]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61188,localport=6996]
+[2024-01-03 21:34:22]  [INFO]  User 1694528574704 get all notifications
+[2024-01-03 21:34:33]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8125,localport=6996]
+[2024-01-03 21:34:33]  [INFO]  User 1694771461670 get detail room 1694771461670
+[2024-01-03 21:35:13]  [INFO]  Server connected database postgreSQL succesfully
+[2024-01-03 21:35:13]  [INFO]  Server is starting on port 6996 - ip 192.168.1.10
+[2024-01-03 21:35:26]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61191,localport=6996]
+[2024-01-03 21:35:27]  [INFO]  User 1694528574704 login successfully
+[2024-01-03 21:35:27]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61192,localport=6996]
+[2024-01-03 21:35:27]  [INFO]  User 1694528574704 get all room
+[2024-01-03 21:35:29]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61193,localport=6996]
+[2024-01-03 21:35:29]  [INFO]  User 1694528574704 get all notifications
+[2024-01-03 21:35:47]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61194,localport=6996]
+[2024-01-03 21:35:47]  [INFO]  Get profile of user quocanle999@gmail.com
+[2024-01-03 21:35:49]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61195,localport=6996]
+[2024-01-03 21:35:49]  [INFO]  User 1694528574704 get all notifications
+[2024-01-03 21:35:56]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61196,localport=6996]
+[2024-01-03 21:35:56]  [INFO]  Get profile of user quocanle999@gmail.com
+[2024-01-03 21:35:56]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61197,localport=6996]
+[2024-01-03 21:35:56]  [INFO]  User 1694528574704 is logout account
+[2024-01-03 21:36:04]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8137,localport=6996]
+[2024-01-03 21:36:04]  [INFO]  User 1694771461670 get detail room 1694771461670
+[2024-01-03 21:40:03]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61199,localport=6996]
+[2024-01-03 21:40:04]  [INFO]  User 1694528574704 login successfully
+[2024-01-03 21:40:04]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61200,localport=6996]
+[2024-01-03 21:40:04]  [INFO]  User 1694528574704 get all room
+[2024-01-03 21:40:07]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61201,localport=6996]
+[2024-01-03 21:40:07]  [INFO]  Get profile of user quocanle999@gmail.com
+[2024-01-03 21:40:08]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61202,localport=6996]
+[2024-01-03 21:40:08]  [INFO]  User 1694528574704 is logout account
+[2024-01-03 21:40:17]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61203,localport=6996]
+[2024-01-03 21:40:17]  [INFO]  User 1694528574704 login successfully
+[2024-01-03 21:40:17]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61204,localport=6996]
+[2024-01-03 21:40:17]  [INFO]  User 1694528574704 get all room
+[2024-01-03 21:40:19]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61205,localport=6996]
+[2024-01-03 21:40:19]  [INFO]  Get profile of user quocanle999@gmail.com
+[2024-01-03 21:40:21]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61206,localport=6996]
+[2024-01-03 21:40:21]  [INFO]  User 1694528574704 get all notifications
+[2024-01-03 21:40:22]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61207,localport=6996]
+[2024-01-03 21:40:22]  [INFO]  Get profile of user quocanle999@gmail.com
+[2024-01-03 21:40:23]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61208,localport=6996]
+[2024-01-03 21:40:23]  [INFO]  Get profile of user quocanle999@gmail.com
+[2024-01-03 21:40:28]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61209,localport=6996]
+[2024-01-03 21:40:28]  [INFO]  User 1694771461670 get detail room 1694771461670
+[2024-01-03 21:41:43]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61210,localport=6996]
+[2024-01-03 21:41:44]  [INFO]  User 1694528574704 login successfully
+[2024-01-03 21:41:44]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61211,localport=6996]
+[2024-01-03 21:41:44]  [INFO]  User 1694528574704 get all room
+[2024-01-03 21:41:48]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61212,localport=6996]
+[2024-01-03 21:41:48]  [INFO]  User 1694771461670 get detail room 1694771461670
+[2024-01-03 21:41:50]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61213,localport=6996]
+[2024-01-03 21:42:50]  [INFO]  Server connected database postgreSQL succesfully
+[2024-01-03 21:42:51]  [INFO]  Server is starting on port 6996 - ip 192.168.1.10
+[2024-01-03 21:43:02]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61219,localport=6996]
+[2024-01-03 21:43:03]  [INFO]  User 1694528574704 login successfully
+[2024-01-03 21:43:03]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61220,localport=6996]
+[2024-01-03 21:43:03]  [INFO]  User 1694528574704 get all room
+[2024-01-03 21:43:07]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61221,localport=6996]
+[2024-01-03 21:43:07]  [INFO]  User 1694771461670 get detail room 1694771461670
+[2024-01-03 21:43:15]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61222,localport=6996]
+[2024-01-03 21:53:17]  [INFO]  Server connected database postgreSQL succesfully
+[2024-01-03 21:53:17]  [INFO]  Server is starting on port 6996 - ip 192.168.1.10
+[2024-01-03 21:53:28]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61901,localport=6996]
+[2024-01-03 21:53:29]  [INFO]  User 1694528574704 login successfully
+[2024-01-03 21:53:29]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61902,localport=6996]
+[2024-01-03 21:53:29]  [INFO]  User 1694528574704 get all room
+[2024-01-03 21:53:36]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61907,localport=6996]
+[2024-01-03 21:53:36]  [INFO]  User 1694771461670 get detail room 1694771461670
+[2024-01-03 21:53:37]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61908,localport=6996]
+[2024-01-03 21:53:37]  [INFO]  User 1694771461670 get detail room 1694771461670
+[2024-01-03 21:53:41]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61909,localport=6996]
+[2024-01-03 21:53:41]  [INFO]  User 1694771461670 get detail room 1694771461670
+[2024-01-03 21:53:46]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61910,localport=6996]
+[2024-01-03 21:53:46]  [INFO]  User 1694771461670 get detail room 1694771461670
+[2024-01-03 21:53:48]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61911,localport=6996]
+[2024-01-03 21:53:48]  [INFO]  User 1694771461670 get detail room 1694771461670
+[2024-01-03 21:56:21]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61932,localport=6996]
+[2024-01-03 21:56:22]  [INFO]  User 1694528574704 login successfully
+[2024-01-03 21:56:22]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61933,localport=6996]
+[2024-01-03 21:56:22]  [INFO]  User 1694528574704 get all room
+[2024-01-03 21:56:28]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8213,localport=6996]
+[2024-01-03 21:56:28]  [INFO]  User 1694318601553 get all room
+[2024-01-03 21:56:34]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8217,localport=6996]
+[2024-01-03 21:56:34]  [INFO]  User 1695823338216 get detail room 1695823338216
+[2024-01-03 21:56:48]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8220,localport=6996]
+[2024-01-03 21:56:48]  [INFO]  User 1695823338216 get detail room 1695823338216
+[2024-01-03 21:56:57]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8223,localport=6996]
+[2024-01-03 21:56:57]  [INFO]  User 1694528574704 remove out room 1695823338216
+[2024-01-03 21:57:03]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8225,localport=6996]
+[2024-01-03 21:57:05]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8226,localport=6996]
+[2024-01-03 21:57:05]  [INFO]  Add members 1694528574704 in room 1695823338216
+[2024-01-03 21:57:09]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8228,localport=6996]
+[2024-01-03 21:57:09]  [INFO]  User 1695823338216 get detail room 1695823338216
+[2024-01-03 21:57:21]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8237,localport=6996]
+[2024-01-03 21:57:21]  [INFO]  User 1694528574704 remove out room 1695823338216
+[2024-01-03 21:57:30]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8238,localport=6996]
+[2024-01-03 21:57:34]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8239,localport=6996]
+[2024-01-03 21:57:34]  [INFO]  Add members 1694528574704 in room 1695823338216
+[2024-01-03 22:00:10]  [INFO]  Server connected database postgreSQL succesfully
+[2024-01-03 22:00:10]  [INFO]  Server is starting on port 6996 - ip 192.168.1.10
+[2024-01-03 22:00:21]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61946,localport=6996]
+[2024-01-03 22:00:22]  [INFO]  User 1694528574704 login successfully
+[2024-01-03 22:00:22]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=61947,localport=6996]
+[2024-01-03 22:00:22]  [INFO]  User 1694528574704 get all room
+[2024-01-03 22:00:29]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8248,localport=6996]
+[2024-01-03 22:00:29]  [INFO]  User 1695823338216 get detail room 1695823338216
+[2024-01-03 22:00:34]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8254,localport=6996]
+[2024-01-03 22:00:34]  [INFO]  User 1694528574704 remove out room 1695823338216
+[2024-01-03 22:00:45]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8255,localport=6996]
+[2024-01-03 22:00:47]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8256,localport=6996]
+[2024-01-03 22:00:47]  [INFO]  Add members 1694528574704 in room 1695823338216
+[2024-01-03 22:06:59]  [INFO]  Server connected database postgreSQL succesfully
+[2024-01-03 22:06:59]  [INFO]  Server is starting on port 6996 - ip 192.168.1.10
+[2024-01-03 22:07:10]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=62492,localport=6996]
+[2024-01-03 22:07:11]  [INFO]  User 1694528574704 login successfully
+[2024-01-03 22:07:12]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=62493,localport=6996]
+[2024-01-03 22:07:12]  [INFO]  User 1694528574704 get all room
+[2024-01-03 22:07:14]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8343,localport=6996]
+[2024-01-03 22:07:14]  [INFO]  User 1695823338216 get detail room 1695823338216
+[2024-01-03 22:07:23]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8347,localport=6996]
+[2024-01-03 22:07:23]  [INFO]  User 1694528574704 remove out room 1695823338216
+[2024-01-03 22:07:30]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8348,localport=6996]
+[2024-01-03 22:08:20]  [INFO]  Server connected database postgreSQL succesfully
+[2024-01-03 22:08:20]  [INFO]  Server is starting on port 6996 - ip 192.168.1.10
+[2024-01-03 22:08:24]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8353,localport=6996]
+[2024-01-03 22:08:24]  [INFO]  User 1695823338216 get detail room 1695823338216
+[2024-01-03 22:09:08]  [INFO]  Server connected database postgreSQL succesfully
+[2024-01-03 22:09:08]  [INFO]  Server is starting on port 6996 - ip 192.168.1.10
+[2024-01-03 22:09:20]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=62499,localport=6996]
+[2024-01-03 22:09:21]  [INFO]  User 1694528574704 login successfully
+[2024-01-03 22:09:21]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=62500,localport=6996]
+[2024-01-03 22:09:21]  [INFO]  User 1694528574704 get all room
+[2024-01-03 22:09:26]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8367,localport=6996]
+[2024-01-03 22:09:26]  [INFO]  User 1694318601553 login successfully
+[2024-01-03 22:09:27]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8368,localport=6996]
+[2024-01-03 22:09:27]  [INFO]  User 1694318601553 get all room
+[2024-01-03 22:09:29]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8371,localport=6996]
+[2024-01-03 22:09:29]  [INFO]  User 1695823338216 get detail room 1695823338216
+[2024-01-03 22:09:38]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8374,localport=6996]
+[2024-01-03 22:09:40]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8375,localport=6996]
+[2024-01-03 22:09:40]  [INFO]  Add members 1694528574704 in room 1695823338216
+[2024-01-03 22:12:52]  [INFO]  Server connected database postgreSQL succesfully
+[2024-01-03 22:12:52]  [INFO]  Server is starting on port 6996 - ip 192.168.1.10
+[2024-01-03 22:13:04]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=62525,localport=6996]
+[2024-01-03 22:13:05]  [INFO]  User 1694528574704 login successfully
+[2024-01-03 22:13:05]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=62526,localport=6996]
+[2024-01-03 22:13:05]  [INFO]  User 1694528574704 get all room
+[2024-01-03 22:13:07]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8393,localport=6996]
+[2024-01-03 22:13:07]  [INFO]  User 1695823338216 get detail room 1695823338216
+[2024-01-03 22:13:12]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8400,localport=6996]
+[2024-01-03 22:13:12]  [INFO]  User 1694528574704 remove out room 1695823338216
+[2024-01-03 22:13:17]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8401,localport=6996]
+[2024-01-03 22:13:21]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8402,localport=6996]
+[2024-01-03 22:13:21]  [INFO]  Add members 1694528574704 in room 1695823338216
+[2024-01-03 22:13:30]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8404,localport=6996]
+[2024-01-03 22:13:30]  [INFO]  User 1695823338216 get detail room 1695823338216
+[2024-01-03 22:15:08]  [INFO]  Server connected database postgreSQL succesfully
+[2024-01-03 22:15:08]  [INFO]  Server is starting on port 6996 - ip 192.168.1.10
+[2024-01-03 22:15:22]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=62533,localport=6996]
+[2024-01-03 22:15:23]  [INFO]  User 1694528574704 login successfully
+[2024-01-03 22:15:23]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=62534,localport=6996]
+[2024-01-03 22:15:23]  [INFO]  User 1694528574704 get all room
+[2024-01-03 22:15:27]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8418,localport=6996]
+[2024-01-03 22:15:28]  [INFO]  User 1695823338216 get detail room 1695823338216
+[2024-01-03 22:15:47]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8425,localport=6996]
+[2024-01-03 22:15:47]  [INFO]  User 1694318601553 post share room 1695823338216
+[2024-01-03 22:16:40]  [INFO]  Server connected database postgreSQL succesfully
+[2024-01-03 22:16:40]  [INFO]  Server is starting on port 6996 - ip 192.168.1.10
+[2024-01-03 22:16:50]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=62537,localport=6996]
+[2024-01-03 22:16:52]  [INFO]  User 1694528574704 login successfully
+[2024-01-03 22:16:52]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=62538,localport=6996]
+[2024-01-03 22:16:52]  [INFO]  User 1694528574704 get all room
+[2024-01-03 22:16:55]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8430,localport=6996]
+[2024-01-03 22:16:55]  [INFO]  User 1695823338216 get detail room 1695823338216
+[2024-01-03 22:17:00]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8437,localport=6996]
+[2024-01-03 22:17:00]  [INFO]  Message 98 remove
+[2024-01-03 22:17:06]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8438,localport=6996]
+[2024-01-03 22:17:06]  [INFO]  User 1694318601553 post share room 1695823338216
+[2024-01-03 22:17:41]  [INFO]  Server connected database postgreSQL succesfully
+[2024-01-03 22:17:41]  [INFO]  Server is starting on port 6996 - ip 192.168.1.10
+[2024-01-03 22:17:51]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=62543,localport=6996]
+[2024-01-03 22:17:52]  [INFO]  User 1694528574704 login successfully
+[2024-01-03 22:17:52]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=62544,localport=6996]
+[2024-01-03 22:17:52]  [INFO]  User 1694528574704 get all room
+[2024-01-03 22:17:59]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8446,localport=6996]
+[2024-01-03 22:17:59]  [INFO]  Message 98 remove
+[2024-01-03 22:18:06]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8447,localport=6996]
+[2024-01-03 22:18:06]  [INFO]  User 1694318601553 post share room 1695823338216
+[2024-01-03 22:20:27]  [INFO]  Server connected database postgreSQL succesfully
+[2024-01-03 22:20:27]  [INFO]  Server is starting on port 6996 - ip 192.168.1.10
+[2024-01-03 22:20:36]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=62549,localport=6996]
+[2024-01-03 22:20:38]  [INFO]  User 1694528574704 login successfully
+[2024-01-03 22:20:38]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=62550,localport=6996]
+[2024-01-03 22:20:38]  [INFO]  User 1694528574704 get all room
+[2024-01-03 22:20:42]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8458,localport=6996]
+[2024-01-03 22:20:42]  [INFO]  User 1695823338216 get detail room 1695823338216
+[2024-01-03 22:20:45]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8464,localport=6996]
+[2024-01-03 22:20:45]  [INFO]  Message 99 remove
+[2024-01-03 22:20:46]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8465,localport=6996]
+[2024-01-03 22:20:46]  [INFO]  Message 100 remove
+[2024-01-03 22:20:52]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8466,localport=6996]
+[2024-01-03 22:20:52]  [INFO]  User 1694318601553 post share room 1695823338216
+[2024-01-03 22:24:15]  [INFO]  Server connected database postgreSQL succesfully
+[2024-01-03 22:24:15]  [INFO]  Server is starting on port 6996 - ip 192.168.1.10
+[2024-01-03 22:24:17]  [INFO]  Server connected database postgreSQL succesfully
+[2024-01-03 22:24:22]  [INFO]  Server connected database postgreSQL succesfully
+[2024-01-03 22:24:22]  [INFO]  Server is starting on port 6996 - ip 192.168.1.10
+[2024-01-03 22:24:31]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=62589,localport=6996]
+[2024-01-03 22:24:33]  [INFO]  User 1694528574704 login successfully
+[2024-01-03 22:24:33]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=62590,localport=6996]
+[2024-01-03 22:24:33]  [INFO]  User 1694528574704 get all room
+[2024-01-03 22:24:36]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8477,localport=6996]
+[2024-01-03 22:24:36]  [INFO]  User 1695823338216 get detail room 1695823338216
+[2024-01-03 22:24:39]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8483,localport=6996]
+[2024-01-03 22:24:39]  [INFO]  Message 101 remove
+[2024-01-03 22:24:50]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8484,localport=6996]
+[2024-01-03 22:24:50]  [INFO]  User 1694318601553 post share room 1695823338216
+[2024-01-03 22:27:37]  [INFO]  Server connected database postgreSQL succesfully
+[2024-01-03 22:27:37]  [INFO]  Server is starting on port 6996 - ip 192.168.1.10
+[2024-01-03 22:27:49]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=62856,localport=6996]
+[2024-01-03 22:27:51]  [INFO]  User 1694528574704 login successfully
+[2024-01-03 22:27:51]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=62857,localport=6996]
+[2024-01-03 22:27:51]  [INFO]  User 1694528574704 get all room
+[2024-01-03 22:27:55]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8492,localport=6996]
+[2024-01-03 22:27:55]  [INFO]  User 1695823338216 get detail room 1695823338216
+[2024-01-03 22:27:57]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8498,localport=6996]
+[2024-01-03 22:27:57]  [INFO]  Message 102 remove
+[2024-01-03 22:28:03]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8499,localport=6996]
+[2024-01-03 22:28:03]  [INFO]  User 1694318601553 post share room 1695823338216
+[2024-01-03 22:28:27]  [INFO]  Server connected database postgreSQL succesfully
+[2024-01-03 22:28:27]  [INFO]  Server is starting on port 6996 - ip 192.168.1.10
+[2024-01-03 22:28:37]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=62865,localport=6996]
+[2024-01-03 22:28:38]  [INFO]  User 1694528574704 login successfully
+[2024-01-03 22:28:38]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=62866,localport=6996]
+[2024-01-03 22:28:38]  [INFO]  User 1694528574704 get all room
+[2024-01-03 22:28:40]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8504,localport=6996]
+[2024-01-03 22:28:40]  [INFO]  User 1695823338216 get detail room 1695823338216
+[2024-01-03 22:28:42]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8509,localport=6996]
+[2024-01-03 22:28:42]  [INFO]  Message 103 remove
+[2024-01-03 22:28:47]  [INFO]  New client connected: Socket[addr=/192.168.1.11,port=8510,localport=6996]
+[2024-01-03 22:28:47]  [INFO]  User 1694318601553 post share room 1695823338216
+[2024-01-03 22:42:12]  [INFO]  Server connected database postgreSQL succesfully
+[2024-01-03 22:42:19]  [INFO]  Server connected database postgreSQL succesfully
+[2024-01-03 22:42:30]  [INFO]  Server connected database postgreSQL succesfully
+[2024-01-03 22:42:30]  [INFO]  Server is starting on port 6996 - ip 192.168.1.10
+[2024-01-03 22:42:48]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=63350,localport=6996]
+[2024-01-03 22:50:04]  [INFO]  Server connected database postgreSQL succesfully
+[2024-01-03 22:50:04]  [INFO]  Server is starting on port 6996 - ip 192.168.1.10
+[2024-01-03 22:50:21]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=63607,localport=6996]
+[2024-01-03 22:51:24]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=63831,localport=6996]
+[2024-01-03 22:51:58]  [INFO]  Server connected database postgreSQL succesfully
+[2024-01-03 22:51:58]  [INFO]  Server is starting on port 6996 - ip 192.168.1.10
+[2024-01-03 22:52:13]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=63867,localport=6996]
+[2024-01-03 22:53:10]  [INFO]  Server connected database postgreSQL succesfully
+[2024-01-03 22:53:10]  [INFO]  Server is starting on port 6996 - ip 192.168.1.10
+[2024-01-03 22:53:28]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=63909,localport=6996]
+[2024-01-03 22:55:20]  [INFO]  Server connected database postgreSQL succesfully
+[2024-01-03 22:55:20]  [INFO]  Server is starting on port 6996 - ip 192.168.1.10
+[2024-01-03 22:55:39]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=64111,localport=6996]
+[2024-01-03 22:56:02]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=64128,localport=6996]
+[2024-01-03 23:04:36]  [INFO]  Server connected database postgreSQL succesfully
+[2024-01-03 23:04:36]  [INFO]  Server is starting on port 6996 - ip 192.168.1.10
+[2024-01-03 23:06:50]  [INFO]  Server connected database postgreSQL succesfully
+[2024-01-03 23:06:50]  [INFO]  Server is starting on port 6996 - ip 192.168.1.10
+[2024-01-03 23:07:51]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=64313,localport=6996]
+[2024-01-03 23:08:11]  [INFO]  New client connected: Socket[addr=/192.168.1.10,port=64320,localport=6996]

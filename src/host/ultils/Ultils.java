@@ -11,7 +11,7 @@ import common.dao.UserDAO;
 import host.bean.PortIPClientMirror;
 
 public class Ultils {
-	public String handelSendNotificationRoom(List<PortIPClientMirror> listPortIP, String codeRoom) {
+	public String handelSendNotificationRoom(List<PortIPClientMirror> listPortIP, String nameRoom) {
 		String response = "{\"status\":\"Send Request Post Infor Successfully\"}";
 		Thread thread = new Thread(() -> {
 			for (PortIPClientMirror PortIP : listPortIP) {
@@ -19,7 +19,7 @@ public class Ultils {
 					Socket socket = new Socket(PortIP.getIp_address(), Integer.parseInt(PortIP.getPort()));
 					BufferedReader reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
 					PrintWriter writer = new PrintWriter(socket.getOutputStream());
-					String request = "notificationRoom_" + codeRoom;
+					String request = "notificationRoom_" + nameRoom;
 					writer.println(request);
 					writer.flush();
 				} catch (Exception e) {
@@ -31,7 +31,7 @@ public class Ultils {
 		return response;
 	}
 
-	public String handelSendAddMember(List<PortIPClientMirror> listPortIP, String codeRoom) {
+	public String handelSendAddMember(List<PortIPClientMirror> listPortIP, String codeRoom, String nameRoom) {
 		String response = "{\"status\":\"Send Request Post Infor Successfully\"}";
 		Thread thread = new Thread(() -> {
 			for (PortIPClientMirror PortIP : listPortIP) {
@@ -39,7 +39,7 @@ public class Ultils {
 					Socket socket = new Socket(PortIP.getIp_address(), Integer.parseInt(PortIP.getPort()));
 					BufferedReader reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
 					PrintWriter writer = new PrintWriter(socket.getOutputStream());
-					String request = "notificationAddMember_" + codeRoom;
+					String request = "notificationAddMember_" + codeRoom + "_" + nameRoom;
 					writer.println(request);
 					writer.flush();
 				} catch (Exception e) {

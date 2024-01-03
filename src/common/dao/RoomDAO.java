@@ -118,4 +118,14 @@ public class RoomDAO {
 		return id;
 	}
 	
+	public String getNameRoomByCode(String codeRoom) throws SQLException {
+		PreparedStatement p = con.prepareStatement(
+				"SELECT name FROM rooms WHERE code = ?");
+		p.setString(1, codeRoom);
+		ResultSet r = p.executeQuery();
+		while (r.next()) {
+			return r.getString("name");
+		}
+		return null;
+	}
 }
