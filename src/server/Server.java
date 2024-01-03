@@ -35,7 +35,7 @@ import host.dao.HRoomDAO;
 import host.ultils.Ultils;
 
 public class Server {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		try {
 			connection.DatabaseConnection.getInstance().connectToDatabase();
 		} catch (SQLException e) {

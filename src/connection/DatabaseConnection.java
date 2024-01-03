@@ -1,5 +1,6 @@
 package connection;
 
+import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -20,7 +21,7 @@ public class DatabaseConnection {
 
     }
 
-    public void connectToDatabase() throws SQLException {
+    public void connectToDatabase() throws SQLException, IOException {
     	String server = "localhost";
         String port = "5432"; // PostgreSQL mặc định sử dụng cổng 5432
         String database = "pbl4.distantcontrolhub";
